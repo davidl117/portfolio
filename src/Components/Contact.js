@@ -15,13 +15,12 @@ export default function Contact() {
                          form.current,
                          "c201KRp5LjlfqLZok")
         .then((result) => {
-            console.log("message sent");
          }, (error) => {
                 console.log(error);
         });
+        
         setSubmitted(prevSubmit => !prevSubmit)
             alert("Message Submitted")
-            console.log(submitted);
         } 
 
      const styles = {
@@ -36,13 +35,12 @@ export default function Contact() {
 
     return (
         <div id="c3" className="contact-container">
-            <h1>{submitted ? "Thanks! I'll be in touch ASAP!": "Get in touch with me"}</h1>
+            <h1 className="contact-container-h1">{submitted ? "Thanks! I'll be in touch ASAP!": "Get in contact with me"}</h1>
             <form 
                   className="form-container"
                   ref={form}
                   onSubmit={sendEmail}
                   style={styles}
-                //   target="_blank"
             >
                 <input 
                     type="text"
@@ -62,10 +60,10 @@ export default function Contact() {
                     rows={7}
                     required
                 />
-                <input className="submit" type="submit" value="Submit Form" onClick={handleSubmit} />
+                <input className="submit" type="submit" value="Get in Touch" onClick={handleSubmit} />
             </form>
             <div className="return-home-submit">
-            {submitted ? <a to="/">Return to Home</a> : ""}
+            {submitted ? <a href="#c1">Return to <i>Top</i></a> : ""}
             </div>
         </div>
     )

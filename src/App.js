@@ -4,6 +4,7 @@ import Navigation from './Components/Navigation';
 import Header from './Components/Header';
 import Contact from './Components/Contact';
 import Work from './Components/Work';
+import Footer from './Components/Footer';
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
       <Header/>
       <Work/>
       <Contact/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

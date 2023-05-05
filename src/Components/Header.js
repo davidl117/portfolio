@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Skills from "./Skills";
 
 
@@ -19,10 +18,6 @@ export default function Header() {
             <br></br>
             <a href="Davids-resume.pdf" download="Davids-resume.pdf" ><p>Download Resume <FontAwesomeIcon icon={faDownload} /></p></a>
             <a href='#c2'><button className="header-workBtn">My Work</button></a>
-            {/* <footer className="media-links">
-                <a href="https://github.com/davidl117" target={"_blank"}><FontAwesomeIcon icon={faGithub} /></a>  
-                <a href="" target={""}><FontAwesomeIcon icon={faLinkedin} /></a>  
-            </footer> */}
         </div> 
         <div>
         {Skills()}
