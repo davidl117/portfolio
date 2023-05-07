@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.31b0228d.css",
-    "main.js": "/portfolio/static/js/main.58b13515.js",
+    "main.js": "/portfolio/static/js/main.c26b718f.js",
     "static/media/nasa-Q1p7bh3SHj8-unsplash.jpg": "/portfolio/static/media/nasa-Q1p7bh3SHj8-unsplash.ce1bc343d487e0d73b1d.jpg",
     "static/media/Davids-resume.pdf": "/portfolio/static/media/Davids-resume.23873dae5ee141069921.pdf",
     "index.html": "/portfolio/index.html",
     "main.31b0228d.css.map": "/portfolio/static/css/main.31b0228d.css.map",
-    "main.58b13515.js.map": "/portfolio/static/js/main.58b13515.js.map"
+    "main.c26b718f.js.map": "/portfolio/static/js/main.c26b718f.js.map"
   },
   "entrypoints": [
     "static/css/main.31b0228d.css",
-    "static/js/main.58b13515.js"
+    "static/js/main.c26b718f.js"
   ]
 }
